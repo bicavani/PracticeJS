@@ -1,0 +1,14 @@
+let diemvatly = parseInt(prompt("Nhap diem vat ly: ", ''));
+let diemhoahoc = parseInt(prompt("Nhap diem hoa hoc: ", ''));
+let diemsinhhoc = parseInt(prompt("Nhap diem sinh hoc: ", ''));
+document.write("Diem vat ly = " + diemvatly);
+document.write('<br/>');
+document.write("Diem hoa hoc = " + diemhoahoc);
+document.write('<br/>');
+document.write("Diem sinh hoc = " + diemsinhhoc);
+document.write('<br/>');
+let sum = diemvatly+diemhoahoc+diemsinhhoc;
+let avg = sum/3;
+document.write("Diem trung binh 3 mon la: " + avg);
+document.write('<br/>');
+document.write("Tong diem 3 mon la: " + sum);
